@@ -1,0 +1,17 @@
+.content{
+    margin-top: 80px;
+}
+.Diologs{
+    margin-top: 57px;
+    display: flex;
+    justify-content: space-between;
+}
+.dialogs{
+    margin-left: 50px;
+    border-left: 2px solid silver;
+}
+.friends{
+    height: 380px;
+    margin-left: 400px;
+    border-left: 2px solid silver;
+}

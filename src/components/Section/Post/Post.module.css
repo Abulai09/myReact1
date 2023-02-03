@@ -1,0 +1,25 @@
+.Post{
+    margin-top: 5px;
+    margin-left: 100px;
+    margin-bottom: 5px;
+}
+.Post_text{
+    display: flex;
+    align-items: center;
+    padding-top:15px;
+}
+.Post_img{
+    width: 46px;
+    height: 34px;
+}
+.name{
+    margin-left: 20px;
+    color: #003eb0;
+    font-weight: 500;
+}
+.Post_span{
+    margin-left: 20px;
+}
+.span{
+    color: red;
+}

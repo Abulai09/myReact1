@@ -1,0 +1,32 @@
+.post{
+    height: 350px;
+    margin:40px auto 0;
+    background-color: #FFFFFF;
+    padding-left: 110px;
+    padding-top: 10px;
+}
+  .post h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 530;
+    margin-bottom: 30px;
+    margin-top: 10px;
+  }
+  .textinput{
+    height: 40px;
+    width: clamp(13.125rem, 6.534rem + 32.95vw, 31.25rem);
+    border: 1px silver solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #f8f8f8;
+    margin-top: 15px;
+  }
+  .button{
+    border: 0;
+    background-color: #01996D;
+    color: #FFFFFF;
+    padding: 10px 25px;
+    border-radius: 4px;
+  }
+  .button:hover{
+    background-color: #007755;
+  }

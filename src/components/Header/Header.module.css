@@ -1,0 +1,52 @@
+header{
+  background-color: white;
+  height: 100px;
+}
+
+h2{
+  font-size: 25px;
+}
+
+[class*="__container"]{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.header__container{
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+a{
+  color: gold;
+  text-decoration: none;
+  font-size: 20px;
+}
+.nav{
+  display: flex;
+  gap: 20px;
+}
+.btn{
+    text-decoration: none;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btn_b{
+    background-color: #01996D;
+    color: #FFFFFF;
+    padding: 10px 25px;
+    border-radius: 4px;
+}
+.div{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+@media (max-width:628px) {
+  .div{
+    display: none;
+  }
+}
